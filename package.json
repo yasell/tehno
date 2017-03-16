@@ -1,8 +1,8 @@
 {
-  "name": "technomeat",
-  "version": "0.0.1",
+  "name": "tehnomeat",
+  "version": "0.1",
   "private": true,
-  "description": "website for Technomeat_company",
+  "description": "template for 'Tehnomeat' website",
   "author": "RamanYasel",
 
   "devDependencies": {

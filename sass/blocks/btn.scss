@@ -1,19 +1,70 @@
 .btn {
+	z-index: 1;
+	position: relative;
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	margin: 1rem;
 	padding: 1rem 2rem;
-	border: none;
-	background-color: $gray;
-	cursor: pointer;
+	border: 1px solid $red;
+	background-color: transparent;
 	text-align: center;
 	text-decoration: none;
-	font: normal 2.2rem $font_1;
-	color: #fff;
+	font: normal 2rem $font_1;
+	color: $red;
+	cursor: pointer;
+	user-select: none;
+	touch-action: manipulation;
+	white-space: nowrap;
+	word-wrap: normal;
+	overflow: hidden;
+	-webkit-appearance: none;
+	-webkit-backface-visibility: hidden;
+	-moz-osx-font-smoothing: grayscale;
+	transition: border-color 0.3s, color 0.3s;
+	transition-timing-function: cubic-bezier(0.2, 1, 0.3, 1);
+
+	// effect
+	&:before {
+		content: "";
+		z-index: -1;
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		background: #fff;
+		transform: rotate3d(0, 0, 1, -45deg) translate3d(0, -3em, 0);
+		transform-origin: 0% 100%;
+		transition: transform 0.5s, opacity 0.5s, background-color 0.5s;
+	}
 
 	&:hover,
-	&:active {
-		text-decoration: none;
+	&:active,
+	&:focus {
+		color: #fff;
+		outline: none;
+
+		&:before {
+			width: 120%;
+			opacity: 1;
+			background-color: $red;
+			transform: rotate3d(0, 0, 1, 0deg);
+			transition-timing-function: cubic-bezier(0.2, 1, 0.3, 1);
+		}
+	}
+
+	&--red {
+		color: #fff;
+		background-color: $red;
+
+		&:hover,
+		&:active {
+			color: $red;
+
+			&:before {
+				width: 100%;
+				background-color: #fff;
+			}
+		}
 	}
 }

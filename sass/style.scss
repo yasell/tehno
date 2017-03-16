@@ -1,12 +1,23 @@
 // base
 @import "variables";
 @import "mixins";
-@import "fonts";
-@import "reset";
+@import "normalize";
 @import "base";
 
 // blocks
-@import "blocks/container";
 @import "blocks/btn";
-@import "blocks/modal";
+@import "blocks/title";
+@import "blocks/breadcrumbs";
 @import "blocks/forms";
+@import "blocks/modal";
+@import "blocks/header";
+@import "blocks/logo";
+@import "blocks/da-slider";
+@import "blocks/activity";
+@import "blocks/features";
+@import "blocks/order";
+@import "blocks/map";
+@import "blocks/footer";
+@import "blocks/contacts";
+@import "blocks/sidebar";
+@import "blocks/content";

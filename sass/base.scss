@@ -1,5 +1,4 @@
-// base style
-
+/* base style */
 *,
 *::after,
 *::before {
@@ -8,8 +7,7 @@
 
 html {
 	min-height: 100%;
-	font-size: 7px;
-	// if you want responsive adaptive
+	font-size: 8px;
 	@media (min-width: $tablet) {
 		font-size: 9px;
 	}
@@ -26,7 +24,7 @@ body {
 	width: 100%;
 	max-width: 100%;
 	min-height: 100%;
-	font: 300 2rem/1.3 $font_1;
+	font: 300 1.6rem/1.3 $font_1;
 	color: black;
 	overflow-x: hidden;
 	-webkit-text-size-adjust: none;
@@ -43,23 +41,41 @@ dt {
 
 a {
 	text-decoration: none;
-	color: $color_link;
+	color: #000;
+	transition: all 0.3s;
 
 	&:active,
 	&:focus,
 	&:hover {
-		text-decoration: underline;
+		text-decoration: none;
+		color: $red;
 	}
 }
 
-.wrapper {
+img {max-width: 100%;}
+
+.page-wrapper {
 	position: relative;
 	min-height: 100%;
 	height: auto !important;
 	overflow: hidden;
+	background: url("../img/body-bg.svg") center repeat;
+	background-size: 120px;
 }
-// back to top
 
+.main {
+	min-height: 50vh;
+	@include clearfix;
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+	padding: 0 1rem;
+}
+
+/* back to top */
 .back-top {
 	position: fixed;
 	bottom: 3rem;
@@ -75,9 +91,6 @@ a {
 		text-align: center;
 		text-decoration: none;
 
-		&:hover {
-			background-image: url("../img/icons/top_hover.svg");
-		}
+		&:hover {}
 	}
 }
-// end base style

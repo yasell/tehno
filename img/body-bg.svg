@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 17.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Слой_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 120 120" enable-background="new 0 0 120 120" xml:space="preserve">
+<g opacity="0.1">
+	<polygon fill="#FFFFFF" points="30,27.2 57.2,0 57.2,0 2.8,0 2.8,0 	"/>
+	<polygon fill="#FFFFFF" points="60,15 90,45 120,15 120,2.8 90,32.8 60,2.8 30,32.8 0,2.8 0,15 30,45 	"/>
+	<polygon fill="#FFFFFF" points="15,60 27.2,47.8 0,20.7 0,99.3 27.2,72.2 	"/>
+	<polygon fill="#FFFFFF" points="90,27.2 117.2,0 117.2,0 62.8,0 62.8,0 	"/>
+	<polygon fill="#FFFFFF" points="105,60 92.8,72.2 120,99.3 120,20.7 92.8,47.8 	"/>
+	<polygon fill="#FFFFFF" points="60,105 30,75 0,105 0,117.2 30,87.2 60,117.2 90,87.2 120,117.2 120,105 90,75 	"/>
+	
+		<rect x="23.4" y="53.4" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -33.6397 38.7869)" fill="#FFFFFF" width="13.2" height="13.2"/>
+	<polygon fill="#FFFFFF" points="87.2,47.8 60,20.7 32.8,47.8 45,60 32.8,72.2 60,99.3 87.2,72.2 75,60 	"/>
+	<polygon fill="#FFFFFF" points="62.8,120 117.2,120 90,92.8 	"/>
+	<polygon fill="#FFFFFF" points="2.8,120 57.2,120 30,92.8 	"/>
+	
+		<rect x="83.4" y="53.4" transform="matrix(-0.7071 0.7071 -0.7071 -0.7071 196.0661 38.7865)" fill="#FFFFFF" width="13.2" height="13.2"/>
+	<path fill="#D6D6D6" d="M120,99.3v5.7L90,75l-30,30L30,75L0,105v-5.7l27.2-27.2L15,60l12.2-12.2L0,20.7V15l30,30l30-30l30,30l30-30
+		v5.7L92.8,47.8L105,60L92.8,72.2L120,99.3z M90,50.7L80.7,60l9.3,9.3l9.3-9.3L90,50.7z M30,69.3l9.3-9.3L30,50.7L20.7,60L30,69.3z
+		 M87.2,72.2L75,60l12.2-12.2L60,20.7L32.8,47.8L45,60L32.8,72.2L60,99.3L87.2,72.2z"/>
+	<polygon fill="#D6D6D6" points="60,2.8 90,32.8 120,2.8 120,0 117.2,0 117.2,0 90,27.2 62.8,0 62.8,0 57.2,0 57.2,0 30,27.2 2.8,0 
+		2.8,0 0,0 0,2.8 30,32.8 	"/>
+	<polygon fill="#D6D6D6" points="60,117.2 30,87.2 0,117.2 0,120 2.8,120 30,92.8 57.2,120 62.8,120 90,92.8 117.2,120 120,120 
+		120,117.2 90,87.2 	"/>
+</g>
+</svg>

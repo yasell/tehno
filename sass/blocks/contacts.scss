@@ -5,11 +5,20 @@
 	span {
 		color: $red;
 	}
-	a {
-		display: inline-block;
+	// a {
+	// 	display: inline-block;
+	// }
+	.form {
+		width: 50%;
+		margin: 0 0 2rem 0;
 	}
+
 	@media (max-width: $tablet) {
 		background: none;
+
+		.form {
+			width: 100%;
+		}
 	}
 }
 

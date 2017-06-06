@@ -1,0 +1,83 @@
+.features {}
+
+.features__wrapper {
+	display: flex;
+
+	@media (max-width: $mobile_full) {
+		flex-wrap: wrap;
+		padding-bottom: 2rem;
+	}
+}
+
+.features__column {
+	width: 50%;
+
+	&--left {
+		.features__item {
+			margin-bottom: 6rem;
+			padding-left: 7rem;
+
+			&:before {
+				content: "";
+				position: absolute;
+				left: 0;
+				width: 6rem;
+				height: 100%;
+				background: url("../img/icons/check.svg") center no-repeat;
+				background-size: contain;
+			}
+		}
+	}
+
+	&--right {
+		.features__list {
+			list-style: disc;
+		}
+
+		.features__item {
+			margin-bottom: 1.6rem;
+		}
+
+		span {
+			font-weight: bold;
+		}
+	}
+
+	p {
+		margin-top: 0;
+	}
+
+	@media (max-width: $mobile_full) {
+		width: 100%;
+	}
+}
+
+.features__list {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.features__item {
+	position: relative;
+
+	strong {
+		display: block;
+		font-weight: normal;
+		font-size: 2.4rem;
+	}
+}
+
+.features__sign {
+	display: flex;
+	justify-content: space-between;
+
+	span {
+		max-width: 45%;
+		font-weight: 300;
+		font-style: italic;
+		color: $red;
+	}
+}
+
+.features__sign-image {}
